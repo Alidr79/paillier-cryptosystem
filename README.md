@@ -11,10 +11,10 @@ A toy implementation of the Paillier cryptosystem in python
 
 ## Homomorphic Encryption introduction :
 1. A new type of encryption
-2. <mark>Compute on encrypted data without decryption</mark>
+2. Compute on encrypted data without decryption
 3. No one sees the result without the private key
 <img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="450" height="400">
-<h4><font face="times, serif" size="3">
+<h4>
 Assume that you want to do some data analytics or some machine learning or other computations on the data.
 If you are doing this locally on your system every thing is safe.
 <br>
@@ -24,11 +24,31 @@ But if you want to do this by using cloud computation and cloud services(like Go
     
 To preserve the data privacy, you upload the data in encrypted version(*no one can decrypt the data except you!).
 With Homomorphic Encryption the cloud server could compute on the encrypted data without any need for decrypting it...
-    
-</font>
 </h4>
 
 <h2>The dark side of non homomorphic cryptography</h1>
 <img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/CBS_news.png" alt="HE_use_cases" width="450" height="400">
 "The weather channel app used its app to track the whereabouts of its users and sold it to third_party websites for targeted ads,
 Los Angeles prosecutors said Friday as they sued to stop the practice."
+
+```python
+import random
+p = 421
+q = 439
+n = p*q
+pill = paillier(p , q)
+message1 = 114
+message2 = 516
+result_plain = message1+message2
+cipher1 = pill.encrypt(message1)
+cipher2 = pill.encrypt(message2)
+cipher_result = pill.add_cipher(cipher1 , cipher2)
+
+print('Message1 = {} ---> Encrypted = {}'.format(message1 , cipher1))
+print('Message2 = {} ---> Encrypted = {}'.format(message2 , cipher2))
+print("-"*30)
+print('{} + {} = {}'.format(message1 , message2 , result_plain))
+print('{} % {} = {}'.format(result_plain , n , result_plain%n))
+print('{} + {} = {}'.format(cipher1 , cipher2 , cipher_result))
+print('Decryption( {} ) = {}'.format(cipher_result , pill.decrypt(cipher_result)))
+```

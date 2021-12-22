@@ -10,6 +10,9 @@ A toy implementation of the Paillier cryptosystem in python
 6. https://www.youtube.com/watch?v=Bo00HRuonSk&t=748s [Microsoft private AI]
 
 ## Homomorphic Encryption introduction :
+## 1. A new type of encryption
+## 2. Compute on encrypted data without decryption
+## 3. No one sees the result without the private key
 <img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="450" height="400">
 <h4><font face="times, serif" size="3">
 Assume that you want to do some data analytics or some machine learning or other computations on the data.

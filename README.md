@@ -39,8 +39,7 @@ The origins of homomorphic encryption dates back to 1978 — shortly after Rives
 The primary difference between them boils down to the types and frequency of mathematical operations that can be performed on their ciphertext.</h3>
 1. Partially Homomorphic Encryption<br>
 2. Somewhat Homomorphic Encryption<br>
-3. Fully Homomorphic Encryption <br>
-<br>
+3. Fully Homomorphic Encryption <br><br>
 - 1. PHE
 
 Partially homomorphic encryption (PHE) helps sensitive data remain confidential by only allowing select mathematical functions to be performed on encrypted values. This means that one operation can be performed an unlimited number of times on the ciphertext. 

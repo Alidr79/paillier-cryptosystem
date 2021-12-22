@@ -11,3 +11,16 @@ A toy implementation of the Paillier cryptosystem in python
 
 ## Homomorphic Encryption introduction :
 <img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="450" height="400">
+<h3><font face="times, serif" size="4">
+Assume that you want to do some data analytics or some machine learning or other computations on the data.
+If you are doing this locally on your system every thing is safe.
+<br>
+    
+But if you want to do this by using cloud computation and cloud services(like Google colab,kaggle kernels,etc) you should <u>upload your data to the cloud server</u>, now you are out of the safe zone... 
+<br>
+    
+To preserve the data privacy, you upload the data in encrypted version(*no one can decrypt the data except you!).
+With Homomorphic Encryption the cloud server could compute on the encrypted data without any need for decrypting it...
+    
+</font>
+</h3>

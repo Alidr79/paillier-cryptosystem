@@ -13,7 +13,7 @@ A toy implementation of the Paillier cryptosystem in python
 1. A new type of encryption
 2. Compute on encrypted data without decryption
 3. No one sees the result without the private key
-<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="450" height="400">
+<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="550" height="400">
 <h4>
 Assume that you want to do some data analytics or some machine learning or other computations on the data.
 If you are doing this locally on your system every thing is safe.

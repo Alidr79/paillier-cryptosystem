@@ -30,5 +30,5 @@ With Homomorphic Encryption the cloud server could compute on the encrypted data
 
 <h2>The dark side of non homomorphic cryptography</h1>
 <img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/CBS_news.png" alt="HE_use_cases" width="450" height="400">
-The weather channel app used its app to track the whereabouts of its users and sold it to third_party websites for targeted ads,
-Los Angeles prosecutors said Friday as they sued to stop the practice...
+<font face="times, serif" size="3">"The weather channel app used its app to track the whereabouts of its users and sold it to third_party websites for targeted ads,
+Los Angeles prosecutors said Friday as they sued to stop the practice"</font>

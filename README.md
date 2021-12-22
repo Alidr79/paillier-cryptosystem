@@ -34,6 +34,7 @@ Los Angeles prosecutors said Friday as they sued to stop the practice."
 The origins of homomorphic encryption dates back to 1978 — shortly after Rivest, Shamir and Adleman presented RSA encryption — which is a long time in the world of technology. Rivest, Adleman, and Dertouzos came up with the concept of privacy homomorphisms. Their concept of encryption was shot down by Brickell and Yacobi nearly 10 years later. Other researchers have “had a go” at the topic — such as Feigenbaum and Merritt — but, really, no major progress was made until Craig Gentry, a graduate student at Stanford University, decided to try his hand at creating an algebraically homomorphic encryption system as his graduate thesis.
 
 # Types of Homomorphic Encryption
+<img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/Homomorphic-encryption-300x246.png" alt="HE_use_cases" width="300" height="300">
 There are <u>three main types</u> of homomorphic encryption.
 <br>
 The primary difference between them boils down to the types and frequency of mathematical operations that can be performed on their ciphertext.

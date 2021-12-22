@@ -40,6 +40,8 @@ The primary difference between them boils down to the types and frequency of mat
 - 1. Partially Homomorphic Encryption
 - 2. Somewhat Homomorphic Encryption
 - 3. Fully Homomorphic Encryption
+ 
+ 
 <br>
 - 1. PHE
 

@@ -54,7 +54,6 @@ print('Decryption( {} ) = {}'.format(cipher_result , pill.decrypt(cipher_result)
 ```
 Message1 = 114 ---> Encrypted = 25976634402
 Message2 = 516 ---> Encrypted = 10118679904
-------------------------------
 114 + 516 = 630
 630 % 184819 = 630
 25976634402 + 10118679904 = 24797061883

@@ -52,7 +52,7 @@ print('{} % {} = {}'.format(result_plain , n , result_plain%n))
 print('{} + {} = {}'.format(cipher1 , cipher2 , cipher_result))
 print('Decryption( {} ) = {}'.format(cipher_result , pill.decrypt(cipher_result)))
 ```
-Message1 = 114 ---> Encrypted = 25976634402
+Message1 = 114 ---> Encrypted = 25976634402<br>
 Message2 = 516 ---> Encrypted = 10118679904
 114 + 516 = 630
 

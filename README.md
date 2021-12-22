@@ -30,11 +30,11 @@ With Homomorphic Encryption the cloud server could compute on the encrypted data
 Los Angeles prosecutors said Friday as they sued to stop the practice."
 
 # The Origins of Homomorphic Cryptosystems
-<img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/History-of-Homomorphic-Encryption-300x267.png" alt="HE_use_cases" width="300" height="300">
+<img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/History-of-Homomorphic-Encryption-300x267.png" alt="HE_use_cases" width="250" height="250">
 The origins of homomorphic encryption dates back to 1978 — shortly after Rivest, Shamir and Adleman presented RSA encryption — which is a long time in the world of technology. Rivest, Adleman, and Dertouzos came up with the concept of privacy homomorphisms. Their concept of encryption was shot down by Brickell and Yacobi nearly 10 years later. Other researchers have “had a go” at the topic — such as Feigenbaum and Merritt — but, really, no major progress was made until Craig Gentry, a graduate student at Stanford University, decided to try his hand at creating an algebraically homomorphic encryption system as his graduate thesis.
 
 # Types of Homomorphic Encryption
-<img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/Homomorphic-encryption-300x246.png" alt="HE_use_cases" width="300" height="300">
+<img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/Homomorphic-encryption-300x246.png" alt="HE_use_cases" width="250" height="250">
 There are <u>three main types</u> of homomorphic encryption.
 <br>
 The primary difference between them boils down to the types and frequency of mathematical operations that can be performed on their ciphertext.
@@ -54,4 +54,10 @@ somewhat homomorphic encryption (SHE) scheme is one that supports limited operat
 - 3. FHE
 
 Born from a somewhat homomorphic encryption scheme, this holy grail of cryptography is capable of using any efficiently computable functions (such as addition and multiplication, not just one or the other) any number of times and makes secure multi-party computation more efficient. Unlike other forms of homomorphic encryption, it can handle arbitrary computations on your ciphertexts.
-s
+
+# So Why Aren’t We Using Fully Homomorphic Encryption? Well, It’s Still Pretty Slow…
+<img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/Slow-encryption-300x300.png" alt="HE_use_cases" width="300" height="300">
+Unfortunately, in its current state, homomorphic encryption is impractically slow. In the encryption race, it’s running in last place. This is, in part, because homomorphic encryption has a larger computational overhead than plaintext operations.<br>
+IBM released its first version of its HElib C++ library in 2016 — but it reportedly “ran ‘100 trillion times’ slower than plaintext operations.” Since that time, IBM has continued working to combat this issue and have now come up with a version that is 75 times faster… but even that is still incredibly slow in comparison to working with unencrypted data.
+
+Microsoft’s Cryptography Research group came up with Microsoft Simple Encrypted Arithmetic Library (Microsoft SEAL), an open-source homomorphic encryption library. This technology platform, written in C++,

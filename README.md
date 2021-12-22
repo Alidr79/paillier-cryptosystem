@@ -11,7 +11,7 @@ A toy implementation of the Paillier cryptosystem in python
 
 ## Homomorphic Encryption introduction :
 <img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="450" height="400">
-<h3><font face="times, serif" size="4">
+<h4><font face="times, serif" size="3">
 Assume that you want to do some data analytics or some machine learning or other computations on the data.
 If you are doing this locally on your system every thing is safe.
 <br>
@@ -23,9 +23,9 @@ To preserve the data privacy, you upload the data in encrypted version(*no one c
 With Homomorphic Encryption the cloud server could compute on the encrypted data without any need for decrypting it...
     
 </font>
-</h3>
+</h4>
 
-<h1 style = 'color:tomato'>The dark side of non homomorphic cryptography</h1>
+<h2>The dark side of non homomorphic cryptography</h1>
 <img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/CBS_news.png" alt="HE_use_cases" width="450" height="400">
 The weather channel app used its app to track the whereabouts of its users and sold it to third_party websites for targeted ads,
 Los Angeles prosecutors said Friday as they sued to stop the practice...

@@ -40,13 +40,16 @@ The primary difference between them boils down to the types and frequency of mat
 1. Partially Homomorphic Encryption<br>
 2. Somewhat Homomorphic Encryption<br>
 3. Fully Homomorphic Encryption <br>
-<br>
+
 - 1. PHE
+
 Partially homomorphic encryption (PHE) helps sensitive data remain confidential by only allowing select mathematical functions to be performed on encrypted values. This means that one operation can be performed an unlimited number of times on the ciphertext. 
 Paillier encryption (an addition scheme).
 <br>
 - 2. SHE
+
 somewhat homomorphic encryption (SHE) scheme is one that supports limited operations (for example, either addition or multiplication) up to a certain complexity, but these operations can only be performed a set number of times.
 <br>
 - 3. FHE
+
 Born from a somewhat homomorphic encryption scheme, this holy grail of cryptography is capable of using any efficiently computable functions (such as addition and multiplication, not just one or the other) any number of times and makes secure multi-party computation more efficient. Unlike other forms of homomorphic encryption, it can handle arbitrary computations on your ciphertexts.

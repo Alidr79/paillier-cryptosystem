@@ -27,36 +27,9 @@ With Homomorphic Encryption the cloud server could compute on the encrypted data
 </h4>
 
 <h2>The dark side of non homomorphic cryptography</h1>
-<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/CBS_news.png" alt="HE_use_cases" width="450" height="400">
+<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/CBS_news.png" alt="HE_use_cases" width="500" height="400">
 "The weather channel app used its app to track the whereabouts of its users and sold it to third_party websites for targeted ads,
 Los Angeles prosecutors said Friday as they sued to stop the practice."
 
-```python
-import random
-p = 421
-q = 439
-n = p*q
-pill = paillier(p , q)
-message1 = 114
-message2 = 516
-result_plain = message1+message2
-cipher1 = pill.encrypt(message1)
-cipher2 = pill.encrypt(message2)
-cipher_result = pill.add_cipher(cipher1 , cipher2)
-
-print('Message1 = {} ---> Encrypted = {}'.format(message1 , cipher1))
-print('Message2 = {} ---> Encrypted = {}'.format(message2 , cipher2))
-print("-"*30)
-print('{} + {} = {}'.format(message1 , message2 , result_plain))
-print('{} % {} = {}'.format(result_plain , n , result_plain%n))
-print('{} + {} = {}'.format(cipher1 , cipher2 , cipher_result))
-print('Decryption( {} ) = {}'.format(cipher_result , pill.decrypt(cipher_result)))
-```
-Message1 = 114 ---> Encrypted = 25976634402<br>
-Message2 = 516 ---> Encrypted = 10118679904
-114 + 516 = 630
-
-630 % 184819 = 630
-
-25976634402 + 10118679904 = 24797061883
-Decryption( 24797061883 ) = 630
+# The Origins of Homomorphic Cryptosystems
+<img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/History-of-Homomorphic-Encryption-300x267.png" alt="HE_use_cases" width="300" height="300">

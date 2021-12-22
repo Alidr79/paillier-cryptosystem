@@ -24,3 +24,11 @@ With Homomorphic Encryption the cloud server could compute on the encrypted data
     
 </font>
 </h3>
+
+<h1 style = 'color:tomato'>The dark side</h1>
+https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_use_cases.png
+<h2><font face="times, serif" size="5">
+The weather channel app used its app to track the whereabouts of its users and sold it to third_party websites for targeted ads,
+Los Angeles prosecutors said Friday as they sued to stop the practice...
+</font>
+</h2>

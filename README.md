@@ -10,4 +10,4 @@ A toy implementation of the Paillier cryptosystem in python
 6. https://www.youtube.com/watch?v=Bo00HRuonSk&t=748s [Microsoft private AI]
 
 ## Homomorphic Encryption introduction :
-<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="700" height="700">
+<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="300" height="300">

@@ -54,3 +54,4 @@ somewhat homomorphic encryption (SHE) scheme is one that supports limited operat
 - 3. FHE
 
 Born from a somewhat homomorphic encryption scheme, this holy grail of cryptography is capable of using any efficiently computable functions (such as addition and multiplication, not just one or the other) any number of times and makes secure multi-party computation more efficient. Unlike other forms of homomorphic encryption, it can handle arbitrary computations on your ciphertexts.
+s

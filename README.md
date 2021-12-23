@@ -64,7 +64,7 @@ Microsoft’s Cryptography Research group came up with Microsoft Simple Encrypte
 # Paillier Encryption
 One of the partially homomorphic encryption schemes.<br>
 This scheme just supports the addition of ciphertexts.<br>
-D(c1+c2) = p1 + p2<br>
+Decryption(c1+c2) = p1 + p2<br>
 c1 and c2 are corresponding ciphertexts of p1 and p2
 
 ## Application of Paillier

@@ -37,7 +37,7 @@ The origins of homomorphic encryption dates back to 1978 — shortly after Rives
 <img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/Homomorphic-encryption-300x246.png" alt="HE_use_cases" width="250" height="250">
 There are <u>three main types</u> of homomorphic encryption.
 <br>
-The primary difference between them boils down to the types and frequency of mathematical operations that can be performed on their ciphertext.
+The primary difference between them boils down to the types and frequency of mathematical operations that can be performed on their ciphertext.<br>
 1. Partially Homomorphic Encryption<br>
 2. Somewhat Homomorphic Encryption<br>
 3. Fully Homomorphic Encryption <br>-------------------------------------------------------------------<br>

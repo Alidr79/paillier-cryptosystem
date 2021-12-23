@@ -64,18 +64,20 @@ Microsoft’s Cryptography Research group came up with Microsoft Simple Encrypte
 # Paillier Encryption
 One of the partially homomorphic encryption schemes.<br>
 This scheme just supports the addition of ciphertexts.<br>
-D(c1+c2) = p1 + p2  // c1 and c2 are corresponding ciphertexts of p1 and p2
+D(c1+c2) = p1 + p2<br>
+c1 and c2 are corresponding ciphertexts of p1 and p2
 
 ## Application of Paillier
 Consider a simple binary ("for" or "against") vote. Let m voters cast a vote of either 1 (for) or 0 (against). Each voter encrypts their choice before casting their vote. The election official takes the product of the m encrypted votes and then decrypts the result and obtains the value n, which is the sum of all the votes. The election official then knows that n people voted for and m-n people voted against.The role of the random r (check it in the 'Theory', encryption section) ensures that two equivalent votes will encrypt to the same value only with negligible likelihood, hence ensuring voter privacy.
 
 # Theory
-<img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="750" height="750">
+<img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="800" height="800">
 
 
-⚠️⚠️⚠️ Note: 
+⚠️⚠️⚠️ **Note: 
 In paillier scheme, p and q must be two large prime numbers.
-It will not work properly with small prime numbers.
+It will not work properly with small prime numbers.**
+
 # Example of using the Paillier module in python
 ```python
 from Paillier import Paillier

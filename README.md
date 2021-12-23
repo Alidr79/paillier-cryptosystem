@@ -73,10 +73,10 @@ Consider a simple binary ("for" or "against") vote. Let m voters cast a vote of 
 <img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="750" height="750">
 
 
-```diff
-! Note: 
-! In paillier scheme, p and q must be two large prime numbers.<br>
-! It will not work properly with small prime numbers.
+```html
+<h1 style = 'color:tomato'>Note: 
+<h2>In paillier scheme, p and q must be two large prime numbers.<br>
+It will not work properly with small prime numbers.</h2>
 ```
 
 

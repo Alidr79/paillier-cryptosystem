@@ -72,11 +72,11 @@ Consider a simple binary ("for" or "against") vote. Let m voters cast a vote of 
 # Theory
 <img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="750" height="750">
 
-# Example of using the Paillier module in python
 ## Note: 
-## In paillier scheme, p and q must be two large prime numbers.
-## It will not work properly with small prime numbers.
+<h1>In paillier scheme, p and q must be two large prime numbers.<br>
+It will not work properly with small prime numbers.</h1>
 
+# Example of using the Paillier module in python
 ```python
 from Paillier import Paillier
 

@@ -55,9 +55,14 @@ somewhat homomorphic encryption (SHE) scheme is one that supports limited operat
 
 Born from a somewhat homomorphic encryption scheme, this holy grail of cryptography is capable of using any efficiently computable functions (such as addition and multiplication, not just one or the other) any number of times and makes secure multi-party computation more efficient. Unlike other forms of homomorphic encryption, it can handle arbitrary computations on your ciphertexts.
 
-# So Why Aren’t We Using Fully Homomorphic Encryption? Well, It’s Still Pretty Slow…
+## So Why Aren’t We Using Fully Homomorphic Encryption? Well, It’s Still Pretty Slow…
 <img src="https://www.thesslstore.com/blog/wp-content/uploads/2019/06/Slow-encryption-300x300.png" alt="HE_use_cases" width="300" height="300">
 Unfortunately, in its current state, homomorphic encryption is impractically slow. In the encryption race, it’s running in last place. This is, in part, because homomorphic encryption has a larger computational overhead than plaintext operations.<br>
-IBM released its first version of its HElib C++ library in 2016 — but it reportedly “ran ‘100 trillion times’ slower than plaintext operations.” Since that time, IBM has continued working to combat this issue and have now come up with a version that is 75 times faster… but even that is still incredibly slow in comparison to working with unencrypted data.
+IBM released its first version of its HElib C++ library in 2016 — but it reportedly “ran ‘100 trillion times’ slower than plaintext operations.” Since that time, IBM has continued working to combat this issue and have now come up with a version that is 75 times faster… but even that is still incredibly slow in comparison to working with unencrypted data.<br>
+Microsoft’s Cryptography Research group came up with Microsoft Simple Encrypted Arithmetic Library (Microsoft SEAL), an open-source homomorphic encryption library. This technology platform, written in C++.
 
-Microsoft’s Cryptography Research group came up with Microsoft Simple Encrypted Arithmetic Library (Microsoft SEAL), an open-source homomorphic encryption library. This technology platform, written in C++,
+# Paillier Encryption
+# Theory
+<img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="900" height="900">
+
+Example of using the Paillier module in python

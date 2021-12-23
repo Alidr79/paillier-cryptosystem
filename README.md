@@ -66,7 +66,7 @@ Microsoft’s Cryptography Research group came up with Microsoft Simple Encrypte
 <img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="700" height="700">
 
 # Example of using the Paillier module in python
-'''python
+```python
 from Paillier import Paillier
 
 p = 179
@@ -84,11 +84,12 @@ print('Message2 = {} ---> Encrypted = {}'.format(message2 , cipher2))
 print('{} + {} = {}'.format(message1 , message2 , result_plain))
 print('{} + {} = {}'.format(cipher1 , cipher2 , cipher_result))
 print('Decryption( {} ) = {}'.format(cipher_result , pill.decrypt(cipher_result)))
-'''
-'''
+```
+
+```
 Message1 = 13 ---> Encrypted = 20582710652
 Message2 = 123 ---> Encrypted = 4688047556
 13 + 123 = 136
 20582710652 + 4688047556 = 37766671787
 Decryption( 37766671787 ) = 136
-'''
+```

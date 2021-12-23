@@ -13,7 +13,7 @@ A toy implementation of the Paillier cryptosystem in python
 1. A new type of encryption
 2. Compute on encrypted data without decryption
 3. No one sees the result without the private key
-<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="550" height="400">
+<img src="https://raw.githubusercontent.com/Alidr79/paillier-cryptosystem/main/HE_graph.png" alt="HE_use_cases" width="450" height="300">
 Assume that you want to do some data analytics or some machine learning or other computations on the data.
 If you are doing this locally on your system every thing is safe.
 <br>
@@ -62,10 +62,21 @@ IBM released its first version of its HElib C++ library in 2016 — but it repor
 Microsoft’s Cryptography Research group came up with Microsoft Simple Encrypted Arithmetic Library (Microsoft SEAL), an open-source homomorphic encryption library. This technology platform, written in C++.
 
 # Paillier Encryption
+One of the partially homomorphic encryption schemes.<br>
+This scheme just supports the addition of ciphertexts.<br>
+D(c1+c2) = p1 + p2  // c1 and c2 are corresponding ciphertexts of p1 and p2
+
+## Application of Paillier
+Consider a simple binary ("for" or "against") vote. Let m voters cast a vote of either 1 (for) or 0 (against). Each voter encrypts their choice before casting their vote. The election official takes the product of the m encrypted votes and then decrypts the result and obtains the value n, which is the sum of all the votes. The election official then knows that n people voted for and m-n people voted against.The role of the random r (check it in the 'Theory', encryption section) ensures that two equivalent votes will encrypt to the same value only with negligible likelihood, hence ensuring voter privacy.
+
 # Theory
-<img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="700" height="700">
+<img src="https://asecuritysite.com/public/pal.png" alt="HE theory" width="750" height="750">
 
 # Example of using the Paillier module in python
+## Note: 
+## In paillier scheme, p and q must be two large prime numbers.
+## It will not work properly with small prime numbers.
+
 ```python
 from Paillier import Paillier
 
